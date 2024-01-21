@@ -1,0 +1,14 @@
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -29,9 +29,9 @@ paperwork-cli = 'paperwork_shell.main:cl
+ paperwork-json = 'paperwork_shell.main:json_main'
+ 
+ [tool.setuptools_scm]
+-root = ".."
++root = "."
+ relative_to = "__file__"
+-write_to = "paperwork-shell/src/paperwork_shell/_version.py"
++write_to = "src/paperwork_shell/_version.py"
+ 
+ [build-system]
+ requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
