@@ -3,7 +3,7 @@
 Summary:	Paperwork's shell interface
 Name:		python-%{module}
 Version:	2.2.0
-Release:	2
+Release:	3
 Group:		Development/Python
 License:	GPL-3.0-or-later
 URL:		https://pypi.org/project/openpaperwork-shell/
